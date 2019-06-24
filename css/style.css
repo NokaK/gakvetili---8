@@ -1,0 +1,97 @@
+.image01{
+	height: 600px;
+	width: 1500px;
+}
+.box {
+	background-image: url('https://s3.amazonaws.com/images.seroundtable.com/google-css-images-1515761601.jpg');
+	height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:white;
+    font-size: 50px;
+}
+.box1{
+	background-image: url('../img/poto1.jpg');
+	height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+.box2{
+	background-image: url('../img/poto2.jpg');
+	height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+.box3{
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpA3c9sxwW543ZeM_w6JWCYlVUa3Paw6zKvhUGTXjihi03w7qaOg');
+	height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+.box4{
+	background-image: url('https://html5box.com/html5lightbox/images/lakeandballoon.jpg');
+	height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    /*transition: all 0.5s ease 0.5s;*/
+}
+.box4:hover{
+/*	background-image: url('../img/poto1.jpg');*/
+	background-color: red;
+}
+.box5{
+	height: 200px;
+    width: 200px;
+     display: inline-block;
+/*    transition: all 0.5s ease 0.5s;*/
+    background-color: red;
+    position: relative;
+}
+/*.box5:hover{
+	 background-color: green;
+	 width:600px;
+}
+.box6:hover {
+	background-color: yellow;
+}*/
+.box5:hover  .box6{
+	 transform: translate(-50%, -50%) rotate(-50deg) scale(1.5) skew(-50deg)}
+.box6{
+	height: 100px;
+    width: 100px;
+    transition: width 0.5s ease 0.5s;
+    background-color: orange;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: all 0.5s ease 0.5s;
+    transform: translate(-50%, -50%) ;
+}
+
+
+.text{
+	margin: 100px auto;
+	font-size: 60px;
+	color: red;
+	text-align: center;
+	transition: all 0.3s ease 0.3s;
+}
+.text:hover{
+	color: green;
+	cursor: pointer;
+	background-color: rgba(0,255,255,0.3);
+}
